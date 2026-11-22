@@ -56,7 +56,7 @@ var mySqrt = function(x) {
             tinggi = tengah - 1;
         }
     }
-    return latestN;
+    return latestN ?? 0;
     // result = tengah * tengah; 
     
     // if (result > x) {
@@ -86,5 +86,5 @@ var mySqrt = function(x) {
     // return tengah;
 };
 
-console.log(mySqrt(100));
+console.log(mySqrt(35));
 // mySqrt(9);
